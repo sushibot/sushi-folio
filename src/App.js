@@ -3,8 +3,12 @@ import soundcloud from "./assets/images/soundcloud.png";
 import linkedin from "./assets/images/linkedin.png";
 import github from "./assets/images/github.png";
 import placeholder from "./assets/images/ball.png";
+import Geometry from "./components/geometry/geomtery";
+
 function App() {
   return (
+    <>
+    <Geometry />
     <main className="container">
       <div className="sub-container">
         <section className="link-container">
@@ -34,8 +38,8 @@ function App() {
           </div>
         </section>
       </div>
-      <img className="img" src={placeholder} />
     </main>
+    </>
   );
 }
 

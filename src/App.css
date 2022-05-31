@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   height: 100vh;
   gap: 48px;
-  position: relative;
+  position: absolute;
+  top: 0px
 }
 .sub-container {
   display: flex;
@@ -101,6 +101,10 @@
     justify-content: unset;
   }
   .sub-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
   }
   .link {
